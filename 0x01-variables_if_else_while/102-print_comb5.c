@@ -25,6 +25,7 @@ int main(void)
 					putchar(' ');
 					putchar(t);
 					putchar(o);
+
 					if (!((tens == '9' && ones == '8') && (t == '9' && o == '9')))
 					{
 						putchar(',');
@@ -33,6 +34,7 @@ int main(void)
 				}
 				o = '0';
 			}
+			t = '0';
 		}
 	}
 	putchar('\n');
