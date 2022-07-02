@@ -32,9 +32,7 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				o = '0';
 			}
-			t = '0';
 		}
 	}
 	putchar('\n');
