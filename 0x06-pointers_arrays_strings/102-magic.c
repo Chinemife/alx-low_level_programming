@@ -1,8 +1,4 @@
 #include <stdio.h>
-/**
- * main - changes the value from a variable address
- * Return: always 0
- */
 
 int main(void)
 {
